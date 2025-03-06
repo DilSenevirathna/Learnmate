@@ -1,0 +1,126 @@
+/* Home.css */
+.hero-banner {
+    background-image: url('https://i.pinimg.com/736x/d5/1c/e8/d51ce8ada5c6f8625ffd1676b9a34db7.jpg'); /* Add your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.about-content1 {
+    display: flex;
+    align-items: center;
+}
+
+.text-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+}
+
+.course-categories {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #f8f9fa;
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab-content > div {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.cta-section .cta-button {
+    background-color: white;
+    color: #007bff;
+    margin: 10px;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #f8f9fa;
+}

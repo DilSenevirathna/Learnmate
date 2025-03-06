@@ -1,0 +1,121 @@
+/* MobileDevelopment.css */
+/* MobileDevStyles.css */
+
+/* Hero Banner */
+.mobile-dev-hero {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://i.pinimg.com/736x/0b/a9/e2/0ba9e25e74077f7e01b2de8451ee952a.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.mobile-dev-hero-text {
+  z-index: 2;
+}
+
+.mobile-dev-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.mobile-dev-hero p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Slider */
+.mobile-dev-slider {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.mobile-dev-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Tab Section */
+.mobile-dev-tabs {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.mobile-dev-tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mobile-dev-tab-buttons button {
+  background-color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.mobile-dev-tab-buttons button:hover {
+  background-color: #bbb;
+}
+
+.mobile-dev-tab-buttons button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Tab Content */
+.mobile-dev-tab-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mobile-dev-tab-content h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.mobile-dev-tab-content p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mobile-dev-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .mobile-dev-hero p {
+    font-size: 1.1rem;
+  }
+
+  .mobile-dev-slide img {
+    height: 250px;
+  }
+
+  .mobile-dev-tab-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-dev-tab-buttons button {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+}

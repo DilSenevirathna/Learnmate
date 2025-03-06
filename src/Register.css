@@ -1,0 +1,97 @@
+/* RegisterStyles.css */
+
+/* Full-page background */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #66d4ff, #ff5ed7);
+  }
+  
+  /* Register card */
+  .register-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Register heading */
+  .register-card h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  /* Input focus effect */
+  .register-input:focus {
+    border-color: #ff5e62;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 94, 98, 0.5);
+  }
+  
+  /* Register button */
+  .register-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff5e62;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:hover {
+    background: #ff9966;
+  }
+  
+  /* Footer text */
+  .register-footer {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .register-footer a {
+    color: #ad3bb1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .register-card {
+      padding: 30px;
+    }
+  
+    .register-input {
+      padding: 10px;
+    }
+  
+    .register-btn {
+      padding: 10px;
+    }
+  }
+  

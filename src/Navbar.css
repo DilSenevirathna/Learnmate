@@ -1,0 +1,78 @@
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+/* Navbar.css */
+.navbar {
+    background-color: #000; /* Black background */
+    padding: 0.5rem 1rem;
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Align items vertically */
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar-brand {
+    color: #fff; /* White text */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex; /* Flexbox for horizontal layout */
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    position: relative; /* For positioning the dropdown menu */
+    margin-right: 1rem; /* Space between items */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Blue highlight for active menu item */
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown menu by default */
+    position: absolute;
+    top: 100%; /* Position dropdown menu under the Courses item */
+    left: 0;
+    background-color: #000; /* Black background */
+    border: none;
+    margin-top: 0.5rem; /* Small gap between Courses item and dropdown */
+}
+
+.dropdown-menu.show {
+    display: block; /* Show dropdown menu when .show class is added */
+}
+
+.dropdown-item {
+    color: #fff; /* White text */
+}
+
+.dropdown-item:hover,
+.dropdown-item.active {
+    color: #007bff; /* Blue highlight for active dropdown item */
+    background-color: transparent; /* Transparent background */
+}
+
+.navbar-nav.d-flex.align-items-center .nav-link i {
+    margin-right: 0.5rem; /* Space between icon and text */
+}
